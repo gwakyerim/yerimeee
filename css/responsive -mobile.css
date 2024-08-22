@@ -106,8 +106,6 @@
     line-height: 1.2em;
   }
   /* Section - About me */
-  #aboutme {
-  }
   .aboutme-wrap {
     width: 100%;
   }
@@ -163,8 +161,6 @@
     margin-bottom: 5px;
   }
   /* Section - portpolio */
-  #portfolio {
-  }
   .portfolio-wrap {
     width: 100%;
   }
@@ -209,8 +205,6 @@
     display: none;
   }
   /* Section - Contact */
-  #contact {
-  }
   .contact-wrap {
     width: 100%;
   }
@@ -240,7 +234,6 @@
     width: 40px;
     height: auto;
   }
-
   /* ### Top Scroll ### */
   .gototop {
     position: fixed;

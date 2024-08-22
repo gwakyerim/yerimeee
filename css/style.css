@@ -219,8 +219,6 @@ body {
 }
 
 /* Section - About me */
-#aboutme {
-}
 .aboutme-wrap {
 	width: 1200px;
 	margin: 0 auto;
@@ -303,8 +301,6 @@ body {
   line-height: 1.8em;
 }
 /* Section - Skills */
-#skills {
-}
 .skills-wrap {
 	width: 1200px;
 	margin: 0 auto;
@@ -337,10 +333,7 @@ body {
 .scroll-on:last-child img {
 	transform: scale(0.8)
 }
-
 /* Section - portpolio */
-#portfolio {
-}
 .portfolio-wrap {
   width: 1200px;
   margin: 0 auto;
@@ -557,8 +550,6 @@ input[id="checked-13"]:checked ~ .slider-wrapper-02 .content-13 {
   display: block;
 }
 /* Section - Contact */
-#contact {
-}
 .contact-wrap {
 	width: 1200px;
   margin: 0 auto;
@@ -624,7 +615,6 @@ input[id="checked-13"]:checked ~ .slider-wrapper-02 .content-13 {
 .btn-email:hover {
 	border: 1px solid rgb(30, 49, 35);
 }
-
 /* ### Footer ### */
 .footer {
 	position: absolute;
@@ -638,7 +628,6 @@ input[id="checked-13"]:checked ~ .slider-wrapper-02 .content-13 {
 	color: #fff;
 	font-size: 14px;
 }
-
 /* ### Top Scroll ### */
 .gototop {
   position: fixed;
