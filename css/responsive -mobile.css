@@ -135,10 +135,10 @@
   .my-profile {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 3%;
+    bottom: 5%;
   }
-  .my-profile button {
-    padding: 10px 10px;
+  .my-profile a {
+    padding: 12px 10px;
     font-size: 14px;
   }
   /* Section - Skills */

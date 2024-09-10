@@ -1,0 +1,135 @@
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+/* Tablet iPhone Mockup */
+.mockup-container {}
+.mockup {
+  display: inline-block;
+  position: relative;
+  transform: scale(0.7);
+}
+.tablet-mockup {
+  position: relative;
+  border: 1px solid #ddd;
+  width: 808px;
+  height: 1180px;
+  border-radius: 27px;
+  background-color: #000;
+}
+.iframe-url {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-49%);
+  border: 1px solid #ddd;
+  width: 768px;
+  height: 1024px;
+}
+.iframe-url iframe {
+  width: 100%;
+  height: 100%;
+}
+.home-btn {
+  height: 60px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.home-btn span {
+  border: 1px solid #ddd;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+  border-radius: 50%;
+}
+.home-btn span:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 97%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 5px #eee;
+}
+.power {
+  width: 5px;
+  height: 40px;
+  position: absolute;
+  left: 99.7%;
+  top: 115px;
+}
+.power span {
+  background-color: #eee;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 4px 4px 0; 
+  box-shadow: inset 0 0 5px #000;
+}
+.volume {
+  position: absolute;
+  width: 4px;
+  height: 150px;
+  left: -7px;
+  top: 88px;
+  display: none;
+}
+.volume span {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  height: 47px;
+  border-radius: 4px 0 0 4px; 
+  box-shadow: inset 0 0 5px #000;
+}
+.volume span:nth-child(1){
+  height: 30px;
+}
+.volume span:nth-child(2){
+  top: 50px;
+}
+.volume span:nth-child(3){
+  bottom: 0;
+}
+.camera {
+  height: 80px;
+  position: absolute;
+  width: 100%;
+}
+.camera span {
+  position: absolute;
+  background-color: #eee;
+}
+.camera span:nth-child(1) {
+  height: 8px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+}
+.camera span:nth-child(2) {
+  display: none;
+}
+.camera span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
