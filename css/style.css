@@ -451,9 +451,6 @@ input[type='radio']:checked + label:before {
 	color: rgb(30, 49, 35);
 	display: block;
 }
-.content-info span {
-  margin-bottom: 20px;
-}
 .btn-portfolio {
   display: inline-block;
   border: 1px solid rgb(30, 49, 35);
@@ -464,6 +461,7 @@ input[type='radio']:checked + label:before {
   margin-right: 10px;
   text-align: center;
   transition: 0.5s;
+  margin-top: 20px;
 }
 .btn-portfolio:hover{
 	color: #fff;
