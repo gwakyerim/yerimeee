@@ -39,6 +39,9 @@ h3 {
   font-size: 24px;
   font-weight: 600;
 }
+section {
+  padding-top: 70px;
+}
 /* Default CSS */
 html {
   cursor: url(../img/cursor.png) 2 2, auto;
