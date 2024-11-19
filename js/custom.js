@@ -81,6 +81,7 @@ $(function(){
   $('.modalContainer').click(function(){
     $(this).hide();
   })
+  
   /* Mobile Custom JS */
   $('.hamburger').click(function(){
     $('.main-menu').toggleClass('active');
